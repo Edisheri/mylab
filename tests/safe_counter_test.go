@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"mylab/internal/atomic" // Замените на реальный путь
+	"mylab/internal/atomic" 
 	"sync"
 	"testing"
 )
