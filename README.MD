@@ -211,51 +211,25 @@ go test -race -v ./tests/...
 ### Задача 2: Безопасный счетчик
 ### Условие: Реализуйте флаг, который можно атомарно устанавливать и проверять.
 
-## Ссылки на академические ресурсы
-1. **Книга:** ["Learn Concurrent Programming with Go" by James Cutajar](https://www.amazon.com/Learn-Concurrent-Programming-Golang-practical/dp/1803245185)
-    - Подробное введение в конкурентность в Go, включая атомарные переменные.
-
-2. **Статья:** ["Atomic Operations in Golang - atomic package"](https://go.dev/doc/atomic)
-    - Официальная документация Go, объясняющая основы атомарных операций.
-
-3. **Сайт:** [GeeksforGeeks - "Atomic Variable in Golang"](https://www.geeksforgeeks.org/atomic-variables-in-golang/)
-    - Четкое объяснение атомарных переменных с примерами.
-
-4. **Блог на Medium:** ["The Go 1.19 Atomic Wrappers and why to use them" by Ralph Caraveo](https://medium.com/@rsc/the-go-1-19-atomic-wrappers-and-why-to-use-them-9b0d1a3d8e3c)
-    - Обсуждение новых атомарных оберток в Go 1.19.
-
-5. **Stack Overflow:** ["Is variable assignment atomic in go?"](https://stackoverflow.com/questions/36609303/is-variable-assignment-atomic-in-go)
-    - Обсуждение атомарности присваивания переменных в Go.
-
----
-
-## Ссылки на статьи в интернете
-1. [Go by Example: Atomic Counters](https://gobyexample.com/atomic-counters)
-2. [Atomic Operations Provided in The sync/atomic Standard Package](https://go101.org/article/sync-atomic.html)
-3. [An Introduction to Atomic Variables in Java](https://www.baeldung.com/java-atomic-variables) (концепция релевантна для Go)
-4. [Atomic Variable in Golang](https://www.tutorialspoint.com/atomic-variables-in-golang)
-5. [Atomic. C++ and Go.. First article will be about comparing…](https://medium.com/@blanchon.vincent/atomic-c-and-go-3e9a2b4d0e4e)
-6. [Is variable assignment atomic in go?](https://stackoverflow.com/questions/36609303/is-variable-assignment-atomic-in-go)
-7. [Go Atomic Variable](https://www.tpointtech.com/golang/atomic-variables-in-golang/)
-8. [Atomic Operations in Golang](https://www.geeksforgeeks.org/atomic-operations-in-golang/)
-9. [The Go 1.19 Atomic Wrappers and why to use them](https://medium.com/@rsc/the-go-1-19-atomic-wrappers-and-why-to-use-them-9b0d1a3d8e3c)
-
----
-
-## Видео с объяснением
-- [Google I/O 2012 - Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)
-    - Обзор паттернов конкурентности в Go, включая атомарные операции.
-
----
-
-## Ключевые цитирования
-1. **James Cutajar** в книге ["Learn Concurrent Programming with Go"](https://www.amazon.com/Learn-Concurrent-Programming-Golang-practical/dp/1803245185).
-2. [Atomic Operations in Golang - atomic package](https://go.dev/doc/atomic) (Golang Docs).
-3. [Atomic Variable in Golang](https://www.geeksforgeeks.org/atomic-variables-in-golang/) (GeeksforGeeks).
-4. [The Go 1.19 Atomic Wrappers](https://medium.com/@rsc/the-go-1-19-atomic-wrappers-and-why-to-use-them-9b0d1a3d8e3c) (Medium).
-5. [Is variable assignment atomic in go?](https://stackoverflow.com/questions/36609303/) (Stack Overflow).
-6. [sync/atomic](https://pkg.go.dev/sync/atomic) (Go Packages).
-7. [Go by Example: Atomic Counters](https://gobyexample.com/atomic-counters).
-8. [Atomic Operations in The sync/atomic Package](https://go101.org/article/sync-atomic.html) (Go 101).
-9. [Atomic Variables in Java](https://www.baeldung.com/java-atomic-variables) (Baeldung).
-10. [Go Atomic Variable](https://www.tpointtech.com/golang/atomic-variables-in-golang/) (Tpoint Tech).  
+## Список источников
+1. T. Tu, X. Liu, L. Song и Y. Zhang, «Understanding Real-World Concurrency Bugs in Go,» 2019 International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Providence, RI, USA, апр. 2019, стр. 1–14, doi:10.1145/3297858.3304069.
+2. T. Tu, X. Liu, L. Song и Y. Zhang, «Understanding Real-World Concurrency Bugs in Go,» 2023 IEEE International Symposium on Software Reliability Engineering (ISSRE), 2023, стр. 582–592, doi:10.1109/ISSRE62328.2024.00061.
+3. evgmih. «Атомики в Go: особенности внутренней реализации». Хабр, 2023. https://habr.com/ru/articles/744822/
+4. inetstar. «Go: жарим общие данные. Атомно, быстро и без мьютексов». Хабр, 2024. https://habr.com/ru/company/ruvds/blog/840748/
+5. mo0Oonnn. «Погружение в параллелизм в Go». Хабр, 2024. https://habr.com/ru/articles/840750/
+6. Zhiyanov, A. «Композиция атомиков в Go». AntonZ.ru, 2024. https://antonz.ru/atomics-composition/
+7. Неизвестный автор. «Go FAQ: Какие операции атомарные? Как насчет мьютексов?» Golang блог, 2019. https://golang-blog.blogspot.com/2019/02/go-faq-atomic-ops-mutex.html
+8. Go Team. «The Go Memory Model». Официальная документация Go, 2022. https://go.dev/ref/mem
+9. Go Team. «sync/atomic: атомарные операции в Go». Официальная документация Go, 2025. https://pkg.go.dev/sync/atomic
+10. Caraveo, R. «The Go 1.19 Atomic Wrappers and why to use them». Medium, 2023. https://medium.com/@deckarep/the-go-1-19-atomic-wrappers-and-why-to-use-them-ae14c1177ad8
+11. Vincent. «Go: How to Reduce Lock Contention with the Atomic Package». A Journey With Go (Medium), 2020. https://medium.com/a-journey-with-go/go-how-to-reduce-lock-contention-with-the-atomic-package-ba3b2664b549
+12. The Quantum Yogi. «The Curious Case of Go’s Memory Model: Simple Language, Subtle Semantics». Medium, 2025. https://medium.com/@kanishksinghpujari/the-curious-case-of-gos-memory-model-simple-language-subtle-semantics-4d3f2029988c
+13. Parker, N. «Understanding and Using the sync/atomic Package in Go». Coding Explorations, 2024. https://www.codingexplorations.com/blog/understanding-and-using-the-syncatomic-package-in-go
+14. Parker, N. «Understanding Golang's Atomic Package and Mutexes». Coding Explorations, 2023. https://www.codingexplorations.com/blog/understanding-golangs-atomic-package-and-mutexes
+15. Dulitha. «Mastering Synchronization Primitives in Go». HackerNoon, 2023. https://hackernoon.com/mastering-synchronization-primitives-in-go
+16. Pang. «Is assigning a pointer atomic in Go?» Stack Overflow, 2014. https://stackoverflow.com/questions/21447463/is-assigning-a-pointer-atomic-in-go
+17. Drathier. «Is variable assignment atomic in go?» Stack Overflow, 2016. https://stackoverflow.com/questions/33715241/variable-assignment-atomic-in-go
+18. api. «Does golang atomic.Load have a acquire semantics?» Stack Overflow, 2019. https://stackoverflow.com/questions/55909553/does-golang-atomic-load-have-an-acquire-semantics
+19. Hugh. «Is there a difference in Go between a counter using atomic operations and one using a mutex?» Stack Overflow, 2017. https://stackoverflow.com/questions/47445344/is-there-a-difference-in-go-between-a-counter-using-atomic-operations-and-one-us
+20. Yuguang. «Is atomic.LoadUint32 necessary?» Stack Overflow, 2017. https://stackoverflow.com/questions/46556857/is-atomic-loaduint32-necessary
+21. Junhee Woo. «Why atomic.Value must not be copied after the first Store?» Stack Overflow, 2021. https://stackoverflow.com/questions/67632767/why-atomic-value-must-not-be-copied-after-the-first-store
