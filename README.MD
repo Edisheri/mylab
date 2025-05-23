@@ -214,11 +214,11 @@ go test -race -v ./tests/...
 ## Список источников
 1. T. Tu, X. Liu, L. Song и Y. Zhang, «Understanding Real-World Concurrency Bugs in Go,» 2019 International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Providence, RI, USA, апр. 2019, стр. 1–14, doi:10.1145/3297858.3304069.
 2. T. Tu, X. Liu, L. Song и Y. Zhang, «Understanding Real-World Concurrency Bugs in Go,» 2023 IEEE International Symposium on Software Reliability Engineering (ISSRE), 2023, стр. 582–592, doi:10.1109/ISSRE62328.2024.00061.
-3. evgmih. «Атомики в Go: особенности внутренней реализации». Хабр, 2023. https://habr.com/ru/articles/744822/
-4. inetstar. «Go: жарим общие данные. Атомно, быстро и без мьютексов». Хабр, 2024. https://habr.com/ru/company/ruvds/blog/840748/
-5. mo0Oonnn. «Погружение в параллелизм в Go». Хабр, 2024. https://habr.com/ru/articles/840750/
-6. Zhiyanov, A. «Композиция атомиков в Go». AntonZ.ru, 2024. https://antonz.ru/atomics-composition/
-7. Неизвестный автор. «Go FAQ: Какие операции атомарные? Как насчет мьютексов?» Golang блог, 2019. https://golang-blog.blogspot.com/2019/02/go-faq-atomic-ops-mutex.html
+3. «Атомики в Go: особенности внутренней реализации». Хабр, 2023. https://habr.com/ru/articles/744822/
+4. «Go: жарим общие данные. Атомно, быстро и без мьютексов». Хабр, 2024. https://habr.com/ru/company/ruvds/blog/840748/
+5. «Погружение в параллелизм в Go». Хабр, 2024. https://habr.com/ru/articles/840750/
+6. «Композиция атомиков в Go». AntonZ.ru, 2024. https://antonz.ru/atomics-composition/
+7.«Go FAQ: Какие операции атомарные? Как насчет мьютексов?» Golang блог, 2019. https://golang-blog.blogspot.com/2019/02/go-faq-atomic-ops-mutex.html
 8. Go Team. «The Go Memory Model». Официальная документация Go, 2022. https://go.dev/ref/mem
 9. Go Team. «sync/atomic: атомарные операции в Go». Официальная документация Go, 2025. https://pkg.go.dev/sync/atomic
 10. Caraveo, R. «The Go 1.19 Atomic Wrappers and why to use them». Medium, 2023. https://medium.com/@deckarep/the-go-1-19-atomic-wrappers-and-why-to-use-them-ae14c1177ad8
